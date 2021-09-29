@@ -1,2 +1,2 @@
-# badstockphotos.github.io
-Github page to share bad stock photos created by me
+# https://logikblok.github.io/badstockphotos/
+Site to share bad stock photos created by me
