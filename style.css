@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  border: 0;
+  font-family: Arial;
+  text-align: center;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+
+}
+
+/* The animation code */
+@keyframes colorchange {
+  from {color: black;}
+  to {color: blue;}
+}
+
+/* The element to apply the animation to */
+h1 {
+  color: red;
+  animation-name: colorchange;
+  animation: colorchange 2s infinite alternate;
+}
+
+.navigation a {
+  padding: 10px;
+}
+
+.navigation {
+  padding: 0px;
+  display: inline-flex;
+}
+
+.badstockphotos {
+
+}
+
+img {
+  display: inline-flex;
+  padding: 10px;
+  height: 35%;
+  width: 35%;
+}
+
+about {
+  display: flex;
+}
