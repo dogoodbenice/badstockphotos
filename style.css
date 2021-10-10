@@ -12,8 +12,20 @@ h1 {
 
 /* animation because why not*/
 @keyframes colorchange {
-  from {color: black;}
-  to {color: cyan;}
+  from {color: white;}
+  to {color: green;}
+}
+
+#header {
+  height: 46rem;
+  background-image: url('https://ik.imagekit.io/logikblok/Scan_4_3Ib2KtPVsqh.jpeg?updatedAt=1620488715731');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 h1 {
