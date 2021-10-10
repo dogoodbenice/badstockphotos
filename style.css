@@ -17,7 +17,7 @@ h1 {
 }
 
 #header {
-  height: 46rem;
+  height: 30rem;
   background-image: url('https://ik.imagekit.io/logikblok/Scan_4_3Ib2KtPVsqh.jpeg?updatedAt=1620488715731');
   background-position: center;
   background-size: cover;
@@ -26,6 +26,7 @@ h1 {
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding: 2em;
 }
 
 h1 {
