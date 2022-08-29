@@ -1,24 +1,22 @@
 body {
-  margin: 0;
-  border: 0;
   font-family: Arial;
   text-align: center;
-  font-size: 1.2em;
-}
-
-h1 {
-  font-size: 5em;
+	background: #FFFFFF;
+	font-weight: 400;
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+	margin:0 auto;
+	padding:0 12px;
 }
 
 /* animation because why not*/
 @keyframes colorchange {
   from {color: white;}
-  to {color: green;}
+  to {color: magenta;}
 }
 
 #header {
-  height: 30rem;
-  background-image: url('https://ik.imagekit.io/logikblok/Scan_4_3Ib2KtPVsqh.jpeg?updatedAt=1620488715731');
+  height: 25em;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -30,18 +28,27 @@ h1 {
 }
 
 h1 {
+  font-size: 5em;
   color: red;
   animation-name: colorchange;
-  animation: colorchange 2s infinite alternate;
+  animation: colorchange 1s infinite alternate;
 }
 
 .navigation a {
   padding: 10px;
   font-size: 1.2em;
+  color: magenta;
+  display: flex;
+}
+
+.navigation a:hover {
+  color: green;
 }
 
 .strapline{
   font-size: 1.2em;
+  font-style: italic;
+  color: grey;
 }
 
 .navigation {
@@ -49,17 +56,39 @@ h1 {
   display: inline-flex;
 }
 
-.about {
-  width: 100%;
-}
-
 img {
   display: inline-flex;
   padding: 10px;
   height: 35%;
   width: 35%;
+  align-items: center;
+  justify-content: center;
 }
 
-about {
-  display: flex;
+.ParallaxImage {
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.bg1 {
+  background-image: url("https://ik.imagekit.io/logikblok/Scan_24_fKzJ3-nQJZ.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1620488723463");
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1024px;
+  }
 }
