@@ -1,12 +1,8 @@
 body {
   font-family: Arial;
   text-align: center;
-	background: #FFFFFF;
-	font-weight: 400;
+	font-weight: 5em;
 	font-size: 1em;
-	font-family: Arial, sans-serif;
-	margin:0 auto;
-	padding:0 12px;
 }
 
 /* animation because why not*/
@@ -16,20 +12,17 @@ body {
 }
 
 #header {
-  height: 25em;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   text-align: center;
-  padding: 2em;
 }
 
 h1 {
   font-size: 5em;
-  color: red;
   animation-name: colorchange;
   animation: colorchange 1s infinite alternate;
 }
@@ -38,7 +31,7 @@ h1 {
   padding: 10px;
   font-size: 1.2em;
   color: magenta;
-  display: flex;
+  display: inline-flex;
 }
 
 .navigation a:hover {
@@ -47,7 +40,7 @@ h1 {
 
 .strapline{
   font-size: 1.2em;
-  font-style: italic;
+  font-style: bold;
   color: grey;
 }
 
@@ -69,12 +62,12 @@ img {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover;
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 5px;
+    padding-top: 5px;
 }
 
 .bg1 {
-  background-image: url("https://ik.imagekit.io/logikblok/Scan_24_fKzJ3-nQJZ.jpeg?ik-sdk-version=javascript-1.4.3&updatedAt=1620488723463");
+  background-image: url("https://ik.imagekit.io/logikblok/Scan_24_fKzJ3-nQJZ.jpeg");
 }
 
 @media (min-width: 768px) {
