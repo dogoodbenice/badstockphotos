@@ -29,7 +29,7 @@ h1 {
 
 .navigation a {
   padding: 10px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: magenta;
   display: inline-flex;
 }
@@ -62,8 +62,7 @@ img {
     background-attachment: fixed;
     background-position: 50% 50%;
     background-size: cover;
-    padding-bottom: 5px;
-    padding-top: 5px;
+    padding: 5em;
 }
 
 .bg1 {
